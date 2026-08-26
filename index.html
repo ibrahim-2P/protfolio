@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim| Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container nav-container">
+        <a href="#" class="logo">Muhammad<span>Ibrahim</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <div class="theme-toggle" id="theme-toggle">
+              <div class="toggle-handle"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Frontend Developer & UI/UX Designer</h1>
+          <p>
+            I create beautiful, functional websites and applications with a
+            focus on user experience and clean code. Let's work together to
+            bring your vision to life.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn"
+              >View My Work <i class="fas fa-arrow-right"></i
+            ></a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="img/profile-pic.png" alt="Alex Morgan" />
+          </div>
+          <div class="floating-icons">
+            <div class="floating-icon"><i class="fab fa-html5"></i></div>
+            <div class="floating-icon"><i class="fab fa-css3-alt"></i></div>
+            <div class="floating-icon"><i class="fab fa-js"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <h3>I create products that are more than just pretty</h3>
+            <p>
+              Hello! I'm Ibrahim, a passionate frontend developer with over 5
+              years of experience building responsive websites and web
+              applications.
+            </p>
+            <p>
+              I specialize in HTML, CSS, JavaScript, and modern frameworks like
+              React and Vue. I'm dedicated to creating intuitive user
+              experiences with clean, efficient code.
+            </p>
+            <p>
+              When I'm not coding, you can find me hiking, reading, or
+              experimenting with new technologies in my home lab.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat">
+                <div class="stat-number" data-count="50">0</div>
+                <div class="stat-title">Projects Completed</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number" data-count="35">0</div>
+                <div class="stat-title">Happy Clients</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-skills">
+            <div class="skill-category">
+              <h3><i class="fas fa-code"></i> Frontend Development</h3>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">HTML/CSS</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">React</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills" style="background: var(--glass-bg)">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Skills</h2>
+          <p>What I'm good at</p>
+        </div>
+
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-paint-brush"></i> Design</h3>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">UI/UX Design</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Wireframing</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Prototyping</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-laptop-code"></i> Development</h3>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Responsive Design</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">API Integration</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Performance Optimization</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools</h3>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Figma</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Git</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Webpack</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+          <p>Some of my recent work</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/lorukihtml.png" alt="Project 1" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>(Loruki.) websites clone</h3>
+              <p>A fully responsive Loruki websites clone.</p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">Commerce.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/Amazon.png" alt="Project 2" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Amazon Clone</h3>
+              <p>A fully responsive Amazon clone with cart functionality.</p>
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Mapbox</span>
+                <span class="project-tag">HTML/CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/Screenshot_1.png" alt="Project 3" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Quest website clone</h3>
+              <p>Quest website clone with creative design</p>
+              <div class="project-tags">
+                <span class="project-tag">Vue.js</span>
+                <span class="project-tag">Firebase</span>
+                <span class="project-tag">SCSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" style="background: var(--glass-bg)">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+          <p>Get in touch</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Let's talk about your project</h3>
+            <p>
+              I'm available for freelance work and interesting project
+              opportunities. Feel free to reach out and let's discuss how we can
+              work together.
+            </p>
+
+            <ul class="contact-details">
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>ibrahim2p0315@gmail.com</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>03170847542</span>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>KPK,Pakistan</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form glass-card">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>Muhammad Ibrahim</h3>
+            <p>
+              Frontend developer and UI/UX designer passionate about creating
+              beautiful, functional web experiences.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a
+                href="https://www.linkedin.com/in/muhammad-ibrahim-444b51383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">Consulting</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 Muhammad Ibrahim. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Theme Toggle
+      const themeToggle = document.getElementById("theme-toggle");
+      themeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+        localStorage.setItem(
+          "theme",
+          document.body.classList.contains("dark-mode") ? "dark" : "light"
+        );
+      });
+
+      // Check for saved theme preference
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+
+      // Animate skill bars on scroll
+      const skillBars = document.querySelectorAll(".skill-progress");
+
+      function animateSkills() {
+        skillBars.forEach((bar) => {
+          const width = bar.getAttribute("data-width");
+          bar.style.width = width;
+        });
+      }
+
+      // Animate stats counter
+      const statNumbers = document.querySelectorAll(".stat-number");
+
+      function animateStats() {
+        statNumbers.forEach((stat) => {
+          const target = parseInt(stat.getAttribute("data-count"));
+          const duration = 2000; // 2 seconds
+          const step = target / (duration / 16); // 16ms per frame
+          let current = 0;
+
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              clearInterval(timer);
+              current = target;
+            }
+            stat.textContent = Math.round(current);
+          }, 16);
+        });
+      }
+
+      // Intersection Observer for animations
+      const observerOptions = {
+        threshold: 0.3,
+        rootMargin: "0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            if (entry.target.classList.contains("skill-progress")) {
+              animateSkills();
+            } else if (entry.target.classList.contains("stat-number")) {
+              animateStats();
+            }
+            entry.target.classList.add("visible");
+          }
+        });
+      }, observerOptions);
+
+      // Observe elements
+      document.querySelectorAll(".fade-in").forEach((el) => {
+        observer.observe(el);
+      });
+
+      document
+        .querySelectorAll(".skill-progress, .stat-number")
+        .forEach((el) => {
+          observer.observe(el);
+        });
+
+      // Form submission
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          // In a real implementation, you would send the form data to a server
+          alert("Thanks for your message! I'll get back to you soon.");
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
